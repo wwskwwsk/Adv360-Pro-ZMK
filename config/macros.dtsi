@@ -1,3 +1,9 @@
+macro_chg_keyboard: macro_chg_keyboard{
+compatible = "zmk,behavior-macro";
+label = "macro_chg_keyboard";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp LEFT_SHIFT>;
+};
 macro_macro_debug: macro_macro_debug{
 compatible = "zmk,behavior-macro";
 label = "macro_macro_debug";
